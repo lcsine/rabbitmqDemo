@@ -5,25 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tang</groupId>
-    <artifactId>rabbitmqDemo</artifactId>
+    <artifactId>spring-rabbitmq-consumer</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>producer</module>
-        <module>consumer</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.6.0</version>
-        </dependency>
-    </dependencies>
 
 </project>
